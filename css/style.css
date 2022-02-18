@@ -1,0 +1,405 @@
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #555;
+    border:1px solid white;
+    border-radius: 10px;
+    display: none;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    display:block;
+  }
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+                                      /* the style of the first section */
+
+/* putting an image as cover to the first div */
+#container{
+    background-image: url("../images/cover1.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+/*putting an overlay on the image  */
+#overlay
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+}
+/* making the navbar background as the image  */
+nav
+{   
+    background-color: transparent;
+    color: azure;
+    margin-bottom: 80px;
+}
+/* styling the h3 in the navbar */
+#first_h3
+{
+    padding: 30px;
+    font-size: 30px;
+    display: inline-block;
+    font-family: monospace;
+    cursor: pointer;
+}
+/* adding some animation on hover over the h3 in navbar */
+#first_h3:hover
+{
+    color: #e96c77;
+    transition: color , 0.9s;
+}
+/* styling the li in the navabr */
+#first_lu li
+{
+    display: inline-block;
+    margin: 0px 22px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: monospace;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 8px 0px;
+}
+/* adding some animation on hover over the li in navbar */
+#first_lu li:hover
+{
+    color: #e96c77;
+    transition: color , 0.7s;
+}
+/* styling the unorderd list in the navbar  */
+#first_lu
+{
+    display: inline-block;
+    float: right; 
+    padding: 27px;
+}
+/* giving some style to the second container that hold h2,p,button */
+#sec_container
+{
+    color: white;
+    text-align: center;
+}
+/* styling the h2 in the second container */
+#sec_container h2
+{
+    font:800 35px sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+/* styling the paragraph in the second container */
+#sec_container p
+{
+    font:600 26px sans-serif;
+    color: #e96c77; 
+    margin-bottom: 50px;
+    letter-spacing: 1.2px;
+}
+/* sytyling the button in the second container */
+#sec_container button
+{
+    background-color: #e13745;
+    color: white;
+    border: 1px solid red;
+    border-radius:25px;
+    padding: 10px 30px;
+    font:700 14px sans-serif; 
+}
+/* putting some animation on hover over the button */
+#sec_container button:hover
+{
+    background-color: #e96c77;
+    transform: scale(1.2,1.2);
+}
+
+
+/* starting the second section */
+.sec_section
+{
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.sec_section h3
+{
+    padding-top:50px;
+    margin-bottom: 10px;
+    font:800 25px sans-serif;
+    color: #555;
+}
+
+.sec_section img
+{
+    margin-bottom: 40px;
+}
+.sec_section p
+{
+    font:800 20px cursive;
+    color:#808080;
+    margin-bottom: 60px;
+}
+
+.sec_section div
+{
+    display: inline-block;
+    height: 300px;
+    width: 400px;
+    margin:10px 20px 90px;
+    background-color: white;
+    box-shadow: 0px 3px  #c9c7c7;
+}
+
+.sec_section div:hover
+{
+    transform: scale(1.1,1.1);
+    box-shadow: 2px 2px 10px 2px  #e2e2e2 ;
+}
+.sec_section h2
+{
+    padding: 20px 0px;
+    color: #555;
+    letter-spacing: 1px;
+}
+.sec_section  div p
+{
+    font:800 18px times;
+}
+.sec_section i{
+    font-size: 85px;
+    color: rgb(221, 57, 57);
+    padding: 20px;
+}
+/* styling the third section */
+.third_section
+{
+    background-color: #e96c77;
+}
+/* changing the color in the h3 in the third section */
+.third_section h3
+{
+    color: white;
+}
+/* styling all the paragraph in the third section */
+.third_section p
+{
+    color: #e9f7fc;
+    font-size: 20px;
+    padding:0px 140px;
+}
+/* styling all divs in the third section */
+.third_section div
+{
+    background-color: #EC828C;
+    width: 400px;
+    height: 300px;
+    padding: 35px;
+    margin: 15px 25px 80px;
+    box-shadow: none;
+}
+/* adding animation to all divs in the third section when hover over them */
+.third_section div:hover
+{
+    box-shadow: 1px 1px 10px 1px rgba(73, 73, 73, 0.3);
+    transform: scale(1.07,1.07);
+}
+/* styling all the paragraph  inside the child div of the parent div in the third section */
+.third_section div p
+{
+    font:600 18px cursive;
+    padding: 0%;
+}
+/* styling all the h2 inside the child div of the parent div in the third section */
+.third_section div h2
+{
+    font:600 20px monospace;
+    font-size: 20px;
+    color: #e9f7fc;
+}
+.third_section i
+{
+    background-color: #5b5c6b;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    border-radius:50%;
+}
+/* styling the fourth section */
+.fourth_section 
+{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.fourth_section h3
+{
+    padding: 50px 0px 15px;
+    font:900 25px sans-serif;
+    color: #555;
+} 
+.fourth_section img
+{
+    display: block;
+    margin: auto;
+
+}
+.fourth_section div
+{
+    height: 300px;
+    width: 400px;
+    margin: 30px 20px;
+    display: inline-block;
+}
+.fourth_section div h4
+{
+    padding: 30px;
+    font-size:22px;
+    letter-spacing: 1px;
+    color: #555;
+}
+.fourth_section div p
+{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: monospace;
+    letter-spacing: 0.4px;
+    color: #808080;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.fourth_section div button
+{
+    padding: 10px 20px;
+    font-weight: 800;
+    color: #555;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+.fourth_section div button:hover
+{
+    background-color: #cecece;
+}
+
+.final_section
+{
+   text-align: center;
+   background-color:#f5f5f5 ;
+   height: 800px;
+}
+.final_section h3
+{
+    font:800 25px sans-serif;
+    color: #555;
+    padding: 60px 0px 10px;
+}
+.final_section img
+{
+    margin-bottom: 40px;
+}
+.final_section p
+{
+    font:800 20px cursive;
+    padding: 0px 140px;
+    color: #808080;
+    margin-bottom: 60px;
+}
+#five_container
+{
+    height: 450px;
+    width: 650px;
+    background-color: white;
+    margin: auto;
+    text-align: start;
+}
+input ,textarea
+{
+    margin: 40px 30px 0px 40px;
+    height: 28px;
+    padding: 10px;
+    width: 280px;
+}
+textarea
+{
+    height: 120px;
+}
+button
+{
+    margin:20px 5px 0px 40px ;
+    padding: 10px 20px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+#Reset
+{
+    background-color:#5b5c6b;
+}
+#send
+{
+    background-color:#e13745;
+}
+#Reset:hover
+{
+    transform: scale(1.1,1.1);
+    background-color: #878894;
+}
+#send:hover
+{
+    background-color: #EC828C;
+}
+footer
+{
+    height: 50px; 
+    text-align: center;
+    padding-top: 40px;
+    background-color: black;
+    color: white;
+}
+
+#form
+{
+    display: inline-block;
+    width: 400px;
+}
+.contact
+{
+    display: inline-block;
+    width: 200px;
+}
+.contact div
+{
+    text-align: center;
+    height: 40px;
+    margin: 25px 0;
+}
+
+.contact div p
+{
+    font-size: 14px;
+    padding: 5px;
+}
+.contact i
+{
+    padding: 0px;
+    margin: 0px;
+}
